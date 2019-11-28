@@ -39,12 +39,21 @@ $page = new Superhero(array(
   <button type="button" class="btn btn-dark">(╯=▃=)╯︵┻━┻</button>
 
   <button type="button" class="btn btn-dark">🎶</button>
+  <button type="button" class="btn btn-dark">♫</button>
   <button type="button" class="btn btn-dark">♬</button>
-  <button type="button" class="btn btn-dark">♬</button>
-  
+  <!--
+  <button type="button" class="btn btn-dark"></button>
+  -->
+  <button type="button" class="btn btn-dark">⛟</button>
+  <button type="button" class="btn btn-dark">🦨</button>
 
+  <button type="button" class="btn btn-dark">☠️</button>
+  <button type="button" class="btn btn-dark">☠</button>
+  <button type="button" class="btn btn-dark">💀</button>
+  <button type="button" class="btn btn-dark">☛</button>
+  <button type="button" class="btn btn-dark">☢</button>
+  <!--⛟⚰🥇☃☄☢☮☯☭ 🚽	🚑 ⛔ ⛺🕊︎🕊️🦨⚔-->
 </div>
-
 
 
 
