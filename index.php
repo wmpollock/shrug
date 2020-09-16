@@ -1,18 +1,7 @@
 <?php
 /*
 
-🖖 
-✍
-🤦‍♂
-🤦
-🤦‍♂️
-🧜‍♂️
-🧟
-👨‍👩‍👧‍👧
 
-🙈🙉🙊
-🐳
-🦠
 */
 // PageGen instantiation
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/Phplib/PageGen/Bootstrap4/Superhero.php");
@@ -31,7 +20,56 @@ $page = new Superhero(array(
 
 ));
 
+$characters = [
+  '¯\_(ツ)_/¯',
+  '¯\(°_o)/¯',
+
+  'The More You Know ♒♒★',
+  '( ͡° ͜ʖ ͡°)',
+  '( ͡~ ͜ʖ ͡°)',
+  's( ^ ‿ ^)-b',
+  '(⸟෴⸟)',
+  '( ͡° _ʖ ͡°)',
+  '(╯=▃=)╯︵┻━┻',
+
+  '🎶',
+  '♫',
+  '♬',
+  <!--
+  <button type="button" class="btn btn-dark"></button>
+  -->
+  '⛟',
+  
+  '☠️',
+  '☠',
+  '💀',
+  '☛',
+  '☢',
+  '😕✋',
+  '🙂👉',
+  '🚽',
+  '🚑',
+  '🥇',
+  '⛺',
+  '⭐',
+  '🌟',
+  '🔮',
+  '&dagger;',
+  '🖖',
+  '✍',
+  '🤦‍♂',
+  '🤦',
+  '🤦‍♂️',
+  '🧜‍♂️',
+  '🧟'.
+  '👨‍👩‍👧‍👧',
+  '🙈🙉🙊',
+  '🐳',
+  '🦠',
+]
+
 // At this point, anything that comes out is wrapped as template content :)
+
 ?>
 
 <div class="container">
@@ -40,39 +78,12 @@ $page = new Superhero(array(
     <p>Click an item below to copy the emoticon/donger into your clipboard for paste-fu.</p>
   </div>
 
-  <button id="shrug-og" type="button" class="btn btn-dark">¯\_(ツ)_/¯</button>
-  <button id="shrug-og" type="button" class="btn btn-dark">¯\(°_o)/¯</button>
+<?php
+foreach ($characters as $character) {
+    print("<button type='button' class='btn btn-dark'>$character</button>");
+}
+?>
 
-  <button type="button" class="btn btn-dark">The More You Know ♒♒★</button>
-  <button type="button" class="btn btn-dark">( ͡° ͜ʖ ͡°)</button>
-  <button type="button" class="btn btn-dark">( ͡~ ͜ʖ ͡°)</button>
-  <button type="button" class="btn btn-dark">s( ^ ‿ ^)-b</button>
-  <button type="button" class="btn btn-dark">(⸟෴⸟)</button>
-  <button type="button" class="btn btn-dark">( ͡° _ʖ ͡°)</button>
-  <button type="button" class="btn btn-dark">(╯=▃=)╯︵┻━┻</button>
-
-  <button type="button" class="btn btn-dark">🎶</button>
-  <button type="button" class="btn btn-dark">♫</button>
-  <button type="button" class="btn btn-dark">♬</button>
-  <!--
-  <button type="button" class="btn btn-dark"></button>
-  -->
-  <button type="button" class="btn btn-dark">⛟</button>
-  
-  <button type="button" class="btn btn-dark">☠️</button>
-  <button type="button" class="btn btn-dark">☠</button>
-  <button type="button" class="btn btn-dark">💀</button>
-  <button type="button" class="btn btn-dark">☛</button>
-  <button type="button" class="btn btn-dark">☢</button>
-  <button type="button" class="btn btn-dark">😕✋</button>
-  <button type="button" class="btn btn-dark">🙂👉</button>
-  <button type="button" class="btn btn-dark">🚽</button>
-  <button type="button" class="btn btn-dark">🚑</button>
-  <button type="button" class="btn btn-dark">🥇</button>
-  <button type="button" class="btn btn-dark">⛺</button>
-  <button type="button" class="btn btn-dark">⭐</button>
-  <button type="button" class="btn btn-dark">🌟</button>
-  <button type="button" class="btn btn-dark">🔮</button>
   🕊︎🕊️
   <!--⛟⚰☃☄☮☯☭	 ⛔ 🕊︎🕊️🦨⚔-->
 </div>
