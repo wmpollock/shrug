@@ -64,7 +64,7 @@ $characters = array(
   '👨‍👩‍👧‍👧',
   '🙈🙉🙊',
   '🐳',
-  '🦠'
+  '🌶️'
 );
 
 // At this point, anything that comes out is wrapped as template content :)
