@@ -84,5 +84,6 @@ $characters = array(
   ?>
 
   🕊︎🕊️
+  <p>This mess can be forked <a href="https://github.com/wmpollock/shrug">at github!</a></p>
   <!--⛟⚰☃☄☮☯☭	 ⛔ 🕊︎🕊️🦨⚔-->
 </div>
