@@ -1,5 +1,6 @@
-button {
-    font-family: Segoe UI Symbol;
+button.btn {
     margin: 1em;
+    border: .25em outset;
+    border-radius: .5em;
 }
 
