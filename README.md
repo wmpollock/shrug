@@ -5,4 +5,4 @@ and paste can be a chore, can't it?  Half the time a URL gets copied in, the oth
 
 Online at [https://billpollock.com/shrug](https://billpollock.com/shrug).
 
-Requires [php-pagegen](https://github.com/wmpollock/php-pagegen).
+Requires [php-pagegen](https://github.com/wmpollock/php-pagegen) because a cheesy webpage really needs a cheesy wrapper to indicate the heights of its cheese.
