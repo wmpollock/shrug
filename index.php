@@ -1,28 +1,30 @@
 <?php
+
 /*
 
 
+
 */
+
 // PageGen instantiation
-require_once ($_SERVER['DOCUMENT_ROOT'] . "/Phplib/PageGen/Bootstrap4/Superhero.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/Phplib/PageGen/Bootstrap4/Superhero.php");
 
 $page = new Superhero(array(
-    title => 'Shrug',
-    favicon => file_get_contents('favicon/favicon.include'),
-    css => array(
-      'assets/jquery.toast.css',
-      'assets/shrug.css',
-    ), 
-    js => array(
-        'assets/jquery.toast.js',
-        'assets/shrug.js',
-    ),
+  "title" => 'Shrug',
+  "favicon" => file_get_contents('favicon/favicon.include'),
+  "css" => array(
+    'assets/jquery.toast.css',
+    'assets/shrug.css',
+  ),
+  "js" => array(
+    'assets/jquery.toast.js',
+    'assets/shrug.js',
+  ),
 
 ));
 
-$characters = [
+$characters = array(
   '¯\_(ツ)_/¯',
-  '¯\(°_o)/¯',
 
   'The More You Know ♒♒★',
   '( ͡° ͜ʖ ͡°)',
@@ -35,11 +37,8 @@ $characters = [
   '🎶',
   '♫',
   '♬',
-  <!--
-  <button type="button" class="btn btn-dark"></button>
-  -->
   '⛟',
-  
+
   '☠️',
   '☠',
   '💀',
@@ -61,12 +60,12 @@ $characters = [
   '🤦',
   '🤦‍♂️',
   '🧜‍♂️',
-  '🧟'.
+  '🧟',
   '👨‍👩‍👧‍👧',
   '🙈🙉🙊',
   '🐳',
-  '🦠',
-]
+  '🦠'
+);
 
 // At this point, anything that comes out is wrapped as template content :)
 
@@ -78,11 +77,11 @@ $characters = [
     <p>Click an item below to copy the emoticon/donger into your clipboard for paste-fu.</p>
   </div>
 
-<?php
-foreach ($characters as $character) {
+  <?php
+  foreach ($characters as $character) {
     print("<button type='button' class='btn btn-dark'>$character</button>");
-}
-?>
+  }
+  ?>
 
   🕊︎🕊️
   <!--⛟⚰☃☄☮☯☭	 ⛔ 🕊︎🕊️🦨⚔-->
